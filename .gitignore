@@ -1,0 +1,25 @@
+# ===== CAD 软件的自动保存 / 备份文件（不该进仓库）=====
+
+# LibreCAD 的自动保存文件（以 # 开头）
+\#*
+# LibreCAD 的备份文件（以 ~ 结尾）
+*~
+
+# AutoCAD 自动保存 / 备份
+*.bak
+*.sv$
+*.dwg.bak
+*_recover.dwg
+*.ac$
+
+# 临时锁文件
+~$*
+*.lck
+
+# ===== Windows 系统文件 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ===== 我自己的"改前备份"（留着本地，不上传）=====
+任务3-改前备份.dxf
